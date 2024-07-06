@@ -1,0 +1,106 @@
+@media screen and (max-width: 600px) {
+  section > .container {
+    width: 100%;
+    padding: 30px 5px;
+  }
+  .profile-img {
+    display: none;
+  }
+  #navigation-bar {
+    margin: auto;
+    grid-template-columns: none;
+    grid-template-rows: 0 1fr 1fr 1fr 1fr 0;
+    border: none;
+    margin-bottom: 10px;
+  }
+  #navigation-bar .name {
+    display: none;
+  }
+  #navigation-bar .infos {
+    text-align: start;
+    border: none;
+    justify-self: start;
+    margin-left: 40px;
+  }
+  #about {
+    background: linear-gradient(to bottom, #f7f7f7 50%, rgb(210, 210, 210) 0%);
+  }
+  #about .container {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+  }
+  #about #target {
+    padding-left: 20px;
+  }
+  .job-box {
+    width: 100%;
+  }
+  #job-info .container {
+    grid-template-columns: none;
+  }
+  #certificate .container .certi-box {
+    grid-template-columns: none;
+  }
+  .certi-box img {
+    width: 100%;
+  }
+  .certi-info-1 {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid #d6c08d;
+  }
+  .certi-info-2 {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid #d6c08d;
+  }
+  .certi-info-3 {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    margin-bottom: 40px;
+    border: none;
+  }
+  #project .proj-box {
+    grid-template-columns: none;
+  }
+  #project .proj {
+    grid-template-columns: 1fr 5fr;
+    /*grid-template-rows: 250px 70px 120px 120px 120px 80px;*/
+    grid-template-rows: 3fr 1fr 2fr 2fr 2fr 2fr;
+    /*column-gap: 20px;*/
+  }
+  .proj {
+    margin-bottom: 40px;
+  }
+  .proj-img {
+    width: 100%;
+    border-top: 1px solid black;
+  }
+  .proj-box div {
+    color: gray;
+  }
+  div .first-proj-header {
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    margin-top: 20px;
+    color: black;
+  } /*
+  .proj-header {
+    display: flex;
+    flex-direction: column;
+  }*/
+  .proj-header i {
+    margin: 0;
+  }
+  .proj-box .proj-info {
+    padding-right: 20px;
+  }
+  #footer ul {
+    padding: 0;
+  }
+}
