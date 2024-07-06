@@ -1,0 +1,58 @@
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .goals {
+    order: 1;
+    border: 20px solid blue;
+  }
+
+  .teams {
+    order: 3;
+    border: 20px solid blue;
+    border-top: none;
+  }
+  .timeline {
+    order: 4;
+    border: 20px solid blue;
+    border-top: none;
+    grid-column: 3 / -1;
+    grid-row: 1 / -1;
+  }
+  .scopes {
+    order: 2;
+    border: 20px solid blue;
+    border-top: none;
+  }
+  .primary {
+    order: 3;
+    border: 20px solid blue;
+    border-top: none;
+  }
+  .goal {
+    grid-template-columns: none;
+    width: 100%;
+  }
+  .scopes .box {
+    grid-template-columns: none;
+  }
+  .team {
+    grid-template-columns: none;
+  }
+  .teams i {
+    margin: auto;
+  }
+  .primary .small-box {
+    grid-template-columns: none;
+  }
+  .primary i {
+    margin: auto;
+  }
+  .time {
+    grid-template-columns: none;
+  }
+  .circle-number {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+i {
+  font-size: 30px;
+}
+p {
+  font-size: 14px;
+}
+.small-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.container {
+  display: grid;
+  grid-template-rows: 3fr 2fr;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.goals {
+  border: 10px solid blue;
+  border-left: 20px solid blue;
+  border-top: 20px solid blue;
+}
+
+.teams {
+  background-color: purple;
+  border: 10px solid blue;
+  border-top: 20px solid blue;
+}
+.timeline {
+  border: 10px solid blue;
+  border-top: 20px solid blue;
+  border-right: 20px solid blue;
+  border-bottom: 20px solid blue;
+  grid-column: 3 / -1;
+  grid-row: 1 / -1;
+}
+.scopes {
+  border: 10px solid blue;
+  border-left: 20px solid blue;
+  border-bottom: 20px solid blue;
+}
+.primary {
+  border: 10px solid blue;
+  border-bottom: 20px solid blue;
+}
+.circle-number {
+  width: 40px;
+  height: 40px;
+  border: 3px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  background-color: purple;
+  color: white;
+}
+.container-box {
+  background-color: #f1f1f1;
+  padding: 20px 16px;
+  /*padding-top: 20px;
+  padding-left: 16px;*/
+}
+.header {
+  display: inline-block;
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+  padding: 0 15px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+.goal {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-top: 20px;
+  border-bottom: 0.5px solid grey;
+}
+.goals i {
+  margin: auto;
+  margin-top: 0px;
+}
+.team {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-top: 10px;
+}
+.time {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-top: 10px;
+}
+.time div p {
+  padding-bottom: 10px;
+  border-bottom: 1px dotted rgb(18, 165, 165);
+}
+.scopes .box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.scopes .small-box {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.inout {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.primary .small-box {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-top: 16px;
+}
