@@ -2,7 +2,10 @@
   margin: 0px;
   font-family: sans-serif;
 }
-
+p {
+  color: gray;
+  font-size: 16px;
+}
 .none {
   display: none;
 }
