@@ -1,0 +1,113 @@
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  h1 {
+    font-size: 10px;
+  }
+  section {
+    width: 100%;
+  }
+  section > .container {
+    padding: 30px 0;
+  }
+  .profile-img {
+    display: none;
+  }
+  #navigation-bar {
+    margin: auto;
+    grid-template-columns: 0 2fr 2fr 1fr 2fr 2fr 0;
+    border: none;
+  }
+  .name {
+    width: auto;
+  }
+  .infos {
+    width: 100%;
+    margin: 0;
+  }
+  #about .container {
+    padding: 0;
+  }
+  #target {
+    padding: 50px 20px;
+  }
+  #personal-info {
+    padding: 50px 20px;
+  }
+  #job-info .container {
+    /*
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;*/
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .job-box {
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 0;
+  }
+  .job-box #favorite {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .certi-box img {
+    width: 100%;
+  }
+  .certi-box p {
+    color: grey;
+  }
+  .certi-info-1 {
+    padding-right: 20px;
+  }
+  .certi-info-2 {
+    border-bottom: 1px solid #d6c08d;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 20px;
+  }
+  .certi-info-3 {
+    grid-column: 1 / 2;
+  }
+  #project .proj-box {
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 10px;
+  }
+  #project .proj {
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 170px 50px 50px 1fr 1fr 1fr;
+    row-gap: 0;
+  }
+  .proj-box div {
+    color: gray;
+  }
+  .proj-img {
+    width: 100%;
+    border-top: 1px solid black;
+  }
+  .proj-header {
+    padding-left: 10px;
+  }
+  #project .proj-header {
+    margin: 0;
+    align-self: center;
+    justify-items: center;
+  }
+  div .first-proj-header {
+    color: black;
+  }
+  #project .proj div {
+    margin-top: 0;
+  }
+  .proj-header .icon-user {
+    margin-left: 10px;
+  }
+  .proj-header .icon-lamp {
+    margin-left: 50px;
+  }
+  .proj-info {
+    padding-right: 10px;
+  }
+  #footer ul {
+    padding: 0;
+  }
+}
